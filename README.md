@@ -1,2 +1,2 @@
 # HugoSite
-My Personal Website
+My Personal Website created using Hugo and hosted on AWS.
