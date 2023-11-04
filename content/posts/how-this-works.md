@@ -4,45 +4,65 @@ date: 2023-11-01T19:39:18+05:30
 draft: false
 ---
 
-## Introduction
+# Introduction
 
-This is a post on how this website is built. I am back to building software in my spare time and I wanted to start documenting the progress. I considered various blog/email software like medium and substack but decided to build my own since I will own the data and I enjoy the building process.  
+This is my first and also a post on how this website is built. I am planning to  documenting the progress of how I am setting things up. I am writing this so my kids can use this :) so hoping the explanations are detailed enough. 
+
+
+# Choices I made
+## Build vs use blogging software
+I considered various blog/email software like medium and substack but decided to build my own site rather than use blog/email sites like [Medium](https://medium.com/)   or [Substack](https://substack.com/). 
+<!--- TODO - Potential Post here --->
 
 ## Site Generator
-After years of working in the software industry I have come to appreciate the simplicity of generating html content. My goal is to see how much I can retain the core of a site that is generated html content but try to add dynamic components to it. I will be hosting it on AWS using amplify. 
+After years of working in the software industry I have come to appreciate the simplicity of generating html content as opposed to having a backend. My goal is to see how much I can retain the core of a site that is generated html content but try to add dynamic components to it. 
+<!--- TODO - Potential Post here --->
 
 ## Choice of Site Generator
 After looking at a few I decided to go with [Hugo](https://gohugo.io) 
+<!--- TODO - Potential Post here --->
+
+## Hosting 
+I will be hosting it on AWS and for a start I plan to use AWS Amplify amongst other services.  
 
 
-## Setup of mac 
+# How I built it 
+Here is a rough picture of the pieces involved
 
-Installed brew
-Installed hugo 
-Created a github account
-Created an AWS account 
+![Setup](/HugoMacSetup.svg)
 
-## Setup SSH to access github
-Used https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-ed25519
-https://www.youtube.com/watch?v=jkXIzjiF72g&list=PL7slAxcLWlcAqykFVFaBj_B2HEoJ4E1TH&index=2 good video but uses rsa vs ed25519
+
+## Setup my Mac
+1. [Installed brew](https://brew.sh/)
+1. [Installed hugo](https://gohugo.io/installation/) on my mac
+
+
+
+## Githup and access to github account from Mac
+1. Created a github account
+1. Followed instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup my access of github from mac. This [video](https://www.youtube.com/watch?v=jkXIzjiF72g&list=PL7slAxcLWlcAqykFVFaBj_B2HEoJ4E1TH&index=2) also describes the same process but is a bit dated. It uses rsa instead of the newer ed25519 algorithm
+
 
 ## Getting started with Hugo 
-I followed this https://gohugo.io/getting-started/quick-start/
-But with one difference. I created a repository on github. Then git cloned it git clone git@github.com:sudhirsrinivasan/HugoSite.git
-Then I ran hugo new site HugoSite --force 
-Also after making the changes 
+
+I followed directions from [here](https://gohugo.io/getting-started/quick-start/). But with one difference. I created a repository on github. Then git cloned it 
+git clone git@github.com:sudhirsrinivasan/HugoSite.git
+Then I ran hugo new site HugoSite --force HugoSite 
+With this we will be able to have a Hugo site running on your laptop. 
+
+Also after making the changes will push changes to github. 
 git add --all
 git push 
 
 
 
 ## Hosting on Amplify
+1. Created an AWS account 
+1. Then I followed these [directions](https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/) except for two things  
 
-I followed this website - https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/  
-But one key point here. I had to do the force amplify to use the newer version https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/#using-a-newer-version-of-hugo 
-Also I edited the build file on amplify to add hugo as a command and public directory 
+    1. I had to do the force amplify  to use the newer version and to do that I followed [these directions](https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/#using-a-newer-version-of-hugo) 
+    2. Also I edited the build file on amplify to add hugo as a command and public directory. 
 
 
 
