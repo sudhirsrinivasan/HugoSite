@@ -53,7 +53,7 @@ I created a repository on github called HugoSite. Then git cloned it and ran ran
 1. hugo new site . --force 
 
 
-After that followed directions from [here](https://gohugo.io/getting-started/quick-start/) except that I did not have to git init. Also if you see this warning "found no layout file for" follow directions from [here]()
+After that followed directions from [here](https://gohugo.io/getting-started/quick-start/) except for the steps above so I did not have to git init. Also if you see this warning "found no layout file for" follow directions from [here](https://stackoverflow.com/questions/60269683/how-to-fix-the-error-found-no-layout-file-for-html-for-page-in-hugo-cms)
 
 Once you follow above instructions and are able to see your website on your local you can push changes to github using the commands below 
 1. git add --all
@@ -78,6 +78,12 @@ Then I added the Domain to the amplify app using [directions here](https://docs.
 ## Tada
 
 [sudhirsrinivasan.net](http://sudhirsrinivasan.net)
+
+## To get google to start indexing my website
+
+I verified my ownership of site with google to make sure it starts indexing it  https://support.google.com/webmasters/answer/9008080
+using directions provided here.
+https://support.google.com/a/answer/6149686?hl=en
 
 
 
