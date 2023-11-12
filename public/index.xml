@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Nov 2023 19:39:18 +0530</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How This Works</title>
-      <link>http://example.org/posts/how-this-works/</link>
-      <pubDate>Wed, 01 Nov 2023 19:39:18 +0530</pubDate>
-      
-      <guid>http://example.org/posts/how-this-works/</guid>
-      <description>Introduction This is a post on how this website is built. I am back to building software in my spare time and I wanted to start documenting the progress. I considered various blog/email software like medium and substack but decided to build my own since I will own the data and I enjoy the building process.
-Site Generator After years of working in the software industry I have come to appreciate the simplicity of generating html content.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Sudhirs Site</title>
+        <link>http://example.org/</link>
+        <description>Sudhirs Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Nov 2023 19:39:18 &#43;0530</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>How This Works</title>
+    <link>http://example.org/posts/how-this-works/</link>
+    <pubDate>Wed, 01 Nov 2023 19:39:18 &#43;0530</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/posts/how-this-works/</guid>
+    <description><![CDATA[IntroductionThis is my first post on how this website is built. I am planning to documenting the progress of how I am setting things up. I am writing this so my kids can use this :) so hoping the explanations are detailed enough.
+Choices I made Build/host my website vs use blogging softwareI considered various blog/email software like medium and substack but decided to build my own site rather than use blog/email sites like Medium or Substack.]]></description>
+</item></channel>
 </rss>
