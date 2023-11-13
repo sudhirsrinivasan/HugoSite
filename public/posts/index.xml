@@ -9,7 +9,8 @@
     <pubDate>Wed, 01 Nov 2023 19:39:18 &#43;0530</pubDate><author>
         <name>Author</name>
     </author><guid>http://example.org/posts/how-this-works/</guid>
-    <description><![CDATA[IntroductionThis is my first post on how this website is built. I am planning to documenting the progress of how I am setting things up. I am writing this so my kids can use this :) so hoping the explanations are detailed enough.
-Choices I made Build/host my website vs use blogging softwareI considered various blog/email software like medium and substack but decided to build my own site rather than use blog/email sites like Medium or Substack.]]></description>
+    <description><![CDATA[IntroductionThis is my first post about the construction of this website. I intend to record the development of the building. I hope the explanations are simple as this will be written for my children to use.
+Decisions I took Create/host my website instead of using blogging platformI thought about using Medium and Substack and my blogging platform, but ultimately decided to build my own site.
+Site GeneratorHaving worked in the software industry for years, I have learned to value the ease and simplicity of generating html content over having a backend.]]></description>
 </item></channel>
 </rss>
