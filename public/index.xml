@@ -3,9 +3,17 @@
         <title>Sudhirs Site</title>
         <link>http://example.org/</link>
         <description>Sudhirs Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Nov 2023 19:39:18 &#43;0530</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 13 Nov 2023 11:48:24 &#43;0530</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Hugo_google_indexing</title>
+    <link>http://example.org/posts/hugo_google_indexing/</link>
+    <pubDate>Mon, 13 Nov 2023 11:48:24 &#43;0530</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/posts/hugo_google_indexing/</guid>
+    <description><![CDATA[ To get google to start indexing my websiteI verified my ownership of site with google to make sure it starts indexing it https://support.google.com/webmasters/answer/9008080 using directions provided here. https://support.google.com/a/answer/6149686?hl=en
+noindexAfter verifying my ownership I logged into google search console to check on the performance. I saw this warning ]]></description>
+</item><item>
     <title>How This Works</title>
     <link>http://example.org/posts/how-this-works/</link>
     <pubDate>Wed, 01 Nov 2023 19:39:18 &#43;0530</pubDate><author>
