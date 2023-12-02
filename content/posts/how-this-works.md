@@ -1,5 +1,5 @@
 ---
-title: "How This Works"
+title: "Setting up a blog in a couple of hrs using Hugo and AWS Amplify"
 date: 2023-11-01T19:39:18+05:30
 draft: false
 ---
